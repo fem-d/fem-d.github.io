@@ -1,0 +1,17 @@
+title: Gallery of uData
+description: ""
+baseurl: ""
+url: ""
+
+# Build settings
+safe: true
+permalink: /:title/
+
+# default layout for post
+defaults:
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      layout: "post"
